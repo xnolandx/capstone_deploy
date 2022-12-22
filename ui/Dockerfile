@@ -4,8 +4,7 @@ WORKDIR /app
 
 COPY . /app
 
-RUN npm install react-scripts &&\
-    npm install --force --legacy-peer-deps
+RUN npm install --force --legacy-peer-deps
 
 EXPOSE 3000
 
