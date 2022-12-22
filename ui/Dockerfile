@@ -8,4 +8,4 @@ RUN npm install --force --legacy-peer-deps
 
 EXPOSE 3000
 
-CMD [ "npm", "start" ]
+CMD [ "npm", "build" ]
